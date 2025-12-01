@@ -1,13 +1,15 @@
 # StESPT
 
-This framework has been used in the following article: [**Spatiotemporal Epidemiological Similarity Based on Patient Trajectories**](https://ieeexplore.ieee.org/document/10967377)
+TODO
+
+This framework has been used in the following article: [**Spatiotemporal Epidemiological Similarity Based on Patient Trajectories**](https://ieeexplore.ieee.org/document/10967377) ith doi: 10.1109/ACCESS.2025.3562095 
 
 **IMPORTANT:** Also read the file [PARAMS.md](https://github.com/LorenaPujante/STeMECH/blob/main/PARAMS.md)
 
 ## 0. Related Repositories
 Below, we present some other related repositories that may be of interest to you:
-- [**HospitalKG_changes**](https://github.com/LorenaPujante/HospitalKG_Changes): It is also linked to [~~doi: TODO~~](NULL).
-- [**HospitalEdgeWeigths**](https://github.com/LorenaPujante/HospitalEdgeWeigths): It is also linked to [~~doi: TODO~~](NULL).
+- [**HospitalKG_changes**](https://github.com/LorenaPujante/HospitalKG_Changes): It is also linked to [10.1109/ACCESS.2025.3562095](https://ieeexplore.ieee.org/document/10967377).
+- [**HospitalEdgeWeigths**](https://github.com/LorenaPujante/HospitalEdgeWeigths): It is also linked to [10.1109/ACCESS.2025.3562095](https://ieeexplore.ieee.org/document/10967377).
 - [**HospitalGeneratorRDF_V2**](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2): Code used to generate the input dataset in RDF* for STeMECH based on the output from [**H-Outbreak**](https://github.com/denissekim/Simulation-Model).
 
 
@@ -33,7 +35,7 @@ The code doesn't need any input files to read but requires a repository in [Grap
 
 This repository must be an RDF* ontology following the data model described in [10.1109/JBHI.2024.3417224](https://ieeexplore.ieee.org/document/10568325) and [HospitalKG_changes](https://github.com/LorenaPujante/HospitalKG_Changes). [HospitalGeneratorRDF_V2](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2) has been used to generate the data for the repository.
 
-The RDF* ontology with the dataset for the experiments of [~~doi: TODO~~](NULL) can be found in [**dataset/HospitalGeneratorRDF_V2_output**](https://github.com/LorenaPujante/StESPT/tree/main/dataset/HospitalGeneratorRDF_V2_output). In addition, the input data to generate the ontology is in [dataset/H-Outbreak_output](https://github.com/LorenaPujante/StESPT/tree/main/dataset/H-Outbreak_output).
+The RDF* ontology with the dataset for the experiments of [10.1109/ACCESS.2025.3562095](https://ieeexplore.ieee.org/document/10967377) can be found in [**dataset/HospitalGeneratorRDF_V2_output**](https://github.com/LorenaPujante/StESPT/tree/main/dataset/HospitalGeneratorRDF_V2_output). In addition, the input data to generate the ontology is in [dataset/H-Outbreak_output](https://github.com/LorenaPujante/StESPT/tree/main/dataset/H-Outbreak_output).
 
 
 ## 4. Execution
@@ -87,7 +89,7 @@ Here there are the parameters for some of the _main_ files.
 - **reducedColors**: This parameter is only used in _main_Clustering_Plots.py_. The name of the [colour scheme](https://matplotlib.org/stable/users/explain/colors/colormaps.html) for the bi-dimensional representation of the clusters. 
 -  **barColors**: This parameter is only used in _main_Clustering_Plots.py_. It is an array with the name of the colours for the bars of the charts that show the clustering metrics for each trajectory similarity algorithm.
 
-In the file [PARAMS.md](https://github.com/LorenaPujante/StESPT/blob/main/PARAMS.md) we present the values for all these parameters used to create the dataset for the work [~~doi: TODO~~](NULL).
+In the file [PARAMS.md](https://github.com/LorenaPujante/StESPT/blob/main/PARAMS.md) we present the values for all these parameters used to create the dataset for the work [10.1109/ACCESS.2025.3562095](https://ieeexplore.ieee.org/document/10967377).
 
 
 ## 6. Output
