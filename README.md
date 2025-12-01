@@ -1,6 +1,6 @@
 # StESPT
 
-TODO
+This framework has been used in the following article: [**Spatiotemporal Epidemiological Similarity Based on Patient Trajectories**](https://ieeexplore.ieee.org/document/10967377)
 
 **IMPORTANT:** Also read the file [PARAMS.md](https://github.com/LorenaPujante/STeMECH/blob/main/PARAMS.md)
 
@@ -33,19 +33,19 @@ The code doesn't need any input files to read but requires a repository in [Grap
 
 This repository must be an RDF* ontology following the data model described in [10.1109/JBHI.2024.3417224](https://ieeexplore.ieee.org/document/10568325) and [HospitalKG_changes](https://github.com/LorenaPujante/HospitalKG_Changes). [HospitalGeneratorRDF_V2](https://github.com/LorenaPujante/HospitalGeneratorRDF_V2) has been used to generate the data for the repository.
 
-The RDF* ontology with the dataset for the experiments of [~~doi: TODO~~](NULL) can be found in [**dataset/HospitalGeneratorRDF_V2_output**](https://github.com/LorenaPujante/STeMECH/tree/main/dataset/HospitalGeneratorRDF_V2_output). In addition, the input data to generate the ontology is in [dataset/H-Outbreak_output](https://github.com/LorenaPujante/STeMECH/tree/main/dataset/H-Outbreak_output).
+The RDF* ontology with the dataset for the experiments of [~~doi: TODO~~](NULL) can be found in [**dataset/HospitalGeneratorRDF_V2_output**](https://github.com/LorenaPujante/StESPT/tree/main/dataset/HospitalGeneratorRDF_V2_output). In addition, the input data to generate the ontology is in [dataset/H-Outbreak_output](https://github.com/LorenaPujante/StESPT/tree/main/dataset/H-Outbreak_output).
 
 
 ## 4. Execution
-There are 4 _main_ python files to execute the different parts of the framework. Each file must be executed separately. Go to the folder containing the folder and run: `python name_of_file.py`. All the parameters for STeMECH are in the file [config.py](https://github.com/LorenaPujante/STeMECH/blob/main/Code/config.py), which are described in the [next section](#5-configuration-params).
+There are 4 _main_ python files to execute the different parts of the framework. Each file must be executed separately. Go to the folder containing the folder and run: `python name_of_file.py`. All the parameters for STeMECH are in the file [config.py](https://github.com/LorenaPujante/StESPT/blob/main/Code/config.py), which are described in the [next section](#5-configuration-params).
 
 The parts of the frameworks are:
-- [**main.py**](https://github.com/LorenaPujante/STeMECH/blob/main/Code/main.py): TODO
-- [**main_Heatmap.py**](https://github.com/LorenaPujante/STeMECH/blob/main/Code/main_Heatmap.py): TODO
-- [**main_Clustering_Ks_sil.py**](https://github.com/LorenaPujante/STeMECH/blob/main/Code/main_Clustering_Ks.py): TODO
-- [**main_Clustering_Plots_sil.py**](https://github.com/LorenaPujante/STeMECH/blob/main/Code/main_Clustering_Plots.py): TODO
+- [**main.py**](https://github.com/LorenaPujante/StESPT/blob/main/Code/main.py): TODO
+- [**main_Heatmap.py**](https://github.com/LorenaPujante/StESPT/blob/main/Code/main_Heatmap.py): TODO
+- [**main_Clustering_Ks_sil.py**](https://github.com/LorenaPujante/StESPT/blob/main/Code/main_Clustering_Ks.py): TODO
+- [**main_Clustering_Plots_sil.py**](https://github.com/LorenaPujante/StESPT/blob/main/Code/main_Clustering_Plots.py): TODO
 
-The file [**main_NumCases.py**](https://github.com/LorenaPujante/STeMECH/blob/main/Code/main_NumCases.py) can be used to search the number of positive cases for a microorganism for each week of the dataset. It also searches the cases by week and floor. It can be used to have an approximate idea of the number of patients whose trajectories will be studied depending on the parameters' values.  
+The file [**main_NumCases.py**](https://github.com/LorenaPujante/StESPT/blob/main/Code/main_NumCases.py) can be used to search the number of positive cases for a microorganism for each week of the dataset. It also searches the cases by week and floor. It can be used to have an approximate idea of the number of patients whose trajectories will be studied depending on the parameters' values.  
 
 
 ## 5. Configuration params
@@ -87,7 +87,7 @@ Here there are the parameters for some of the _main_ files.
 - **reducedColors**: This parameter is only used in _main_Clustering_Plots.py_. The name of the [colour scheme](https://matplotlib.org/stable/users/explain/colors/colormaps.html) for the bi-dimensional representation of the clusters. 
 -  **barColors**: This parameter is only used in _main_Clustering_Plots.py_. It is an array with the name of the colours for the bars of the charts that show the clustering metrics for each trajectory similarity algorithm.
 
-In the file [PARAMS.md](https://github.com/LorenaPujante/STeMECH/blob/main/PARAMS.md) we present the values for all these parameters used to create the dataset for the work [~~doi: TODO~~](NULL).
+In the file [PARAMS.md](https://github.com/LorenaPujante/StESPT/blob/main/PARAMS.md) we present the values for all these parameters used to create the dataset for the work [~~doi: TODO~~](NULL).
 
 
 ## 6. Output
